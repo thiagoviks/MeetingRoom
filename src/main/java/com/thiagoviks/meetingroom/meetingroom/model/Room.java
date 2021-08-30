@@ -67,5 +67,14 @@ public class Room {
         this.endHour = endHour;
     }
 
-
+    @Override
+    public String toString() {
+        return "Room{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", date='" + date + '\'' +
+                ", startHour='" + startHour + '\'' +
+                ", endHour='" + endHour + '\'' +
+                '}';
+    }
 }
